@@ -1,0 +1,52 @@
+.full{
+    height: 775px;
+    overflow-y: scroll;
+}
+.App{     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+    
+}
+.ListaPokemon{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 5px 5px;        
+    width: 330px;    
+    box-shadow: 8px 10px 8px -6px rgba(0,0,0,0.75);
+    background-color: #fff;
+    
+}
+.ItemDaListaPokemon{
+  
+    height: 100px;
+    width: 100%;
+    padding-right: 10px;
+}
+.ItemDaListaPokemon h6{
+    font-size: 25px;
+    color: rgb(31, 30, 30);
+    margin-top: 5px;
+    margin-left: -20px;   
+}
+.ItemDaListaPokemon p{
+    font-size: 20px;
+    font-weight: 200;  
+   
+    margin-top: -50px;
+    margin-left: -25px;
+    color: black;
+}
+.TituloDaLista{
+    text-align: left;
+    margin-left: 27px;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom:2px ;       
+}
+.imageCard{
+    float: right;
+    margin-top: -100px;
+}
